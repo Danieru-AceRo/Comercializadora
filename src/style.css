@@ -14,9 +14,9 @@ body {
   overflow-x: hidden;
 }
 
-.layout_padding {
+/* .layout_padding {
   padding: 70px 0;
-}
+} */
 
 .layout_padding2 {
   padding: 75px 0;
@@ -262,6 +262,7 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 90px 0 75px 0;
+  background-color: cornflowerblue;
 }
 
 .slider_section .row {
@@ -276,7 +277,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 15px;
     color: var(--secundary);
@@ -367,7 +368,7 @@ a:focus {
     position: relative;
     margin-top: 25px;
     padding: 35px 35px;
-    background-color: #f7f8f9;
+    background-color: #ffffff;
     -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
@@ -390,16 +391,12 @@ a:focus {
 
 .product_section .box .img-box img {
   max-width: 100%;
-  max-height: 160px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 .product_section .box .detail-box {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -412,7 +409,7 @@ a:focus {
 
 .product_section .box .detail-box h6 {
   margin-top: 10px;
-  color: var(--secundary);
+  /* color: var(--secundary); */
   font-weight: 600;
 }
 
@@ -972,8 +969,8 @@ li.nav-item ul li a:hover, li.nav-item ul li a:focus {
 }
 
 .inner_page_head h3 {
-    font-size: 42px;
-    font-weight: 800;
+    font-size: 38px;
+    font-weight: 700;
 }
 
 /** footer **/
@@ -1125,3 +1122,9 @@ form input[type="submit"]:focus {
 }
 
 
+
+.subproduct{
+  color: white;
+  background-color:var(--secundary);
+  padding: 1.5rem 0;
+}

@@ -31,11 +31,11 @@ const products = [
 const Audicion = () => {
   return (
     <div>
-    <section class="inner_page_head">
-      <div class="container_fuild">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="full">
+    <section className="inner_page_head" id="product_title">
+      <div className="container_fuild">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="full">
               <h3>Audición</h3>
             </div>
           </div>

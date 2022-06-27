@@ -9,24 +9,16 @@ const Slider = () => {
             <div className="carousel-item active">
               <div className="container ">
                 <div className="row">
-                  <div className="col-md-7 col-lg-6 ">
+                  <div className="col ">
                     <div className="detail-box">
                       <h1>
-                        <span>Sale 20% Off</span>
+                        <span>Comercializadora</span>
                         <br />
-                        On Everything
+                        LEUNAM
                       </h1>
                       <p>
-                        Explicabo esse amet tempora quibusdam laudantium, laborum
-                        eaque magnam fugiat hic? Esse dicta aliquid error
-                        repudiandae earum suscipit fugiat molestias, veniam, vel
-                        architecto veritatis delectus repellat modi impedit sequi.
+                        Somos una comercializadora que cuenta con el mejor equipo de proteccion personal y protección contra incendios 
                       </p>
-                      <div className="btn-box">
-                        <a href="" className="btn1">
-                          Shop Now
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -38,21 +30,14 @@ const Slider = () => {
                   <div className="col-md-7 col-lg-6 ">
                     <div className="detail-box">
                       <h1>
-                        <span>Sale 20% Off</span>
+                        <span>Equipo de</span>
                         <br />
-                        On Everything
+                        Proteccion Personal
                       </h1>
                       <p>
-                        Explicabo esse amet tempora quibusdam laudantium, laborum
-                        eaque magnam fugiat hic? Esse dicta aliquid error
-                        repudiandae earum suscipit fugiat molestias, veniam, vel
-                        architecto veritatis delectus repellat modi impedit sequi.
+                        Nuestro equipo de protección personal garantiza la seguridad al realizar tareas de alto riesgo. <br />
+                        Contamos con diferentes accesorios como: arneses, calzado, guantes, etc.
                       </p>
-                      <div className="btn-box">
-                        <a href="" className="btn1">
-                          Shop Now
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -64,21 +49,14 @@ const Slider = () => {
                   <div className="col-md-7 col-lg-6 ">
                     <div className="detail-box">
                       <h1>
-                        <span>Sale 20% Off</span>
+                        <span>Seguridad VS</span>
                         <br />
-                        On Everything
+                        Incendios
                       </h1>
                       <p>
-                        Explicabo esse amet tempora quibusdam laudantium, laborum
-                        eaque magnam fugiat hic? Esse dicta aliquid error
-                        repudiandae earum suscipit fugiat molestias, veniam, vel
-                        architecto veritatis delectus repellat modi impedit sequi.
+                        Nuestros sofosticado equipo contra incendios proporciona el soporte necesesario para convatir un siniestro que qu se pueda precentar. <br />
+                        Contamos con: Equipo de bomberos, extintores y herrajes
                       </p>
-                      <div className="btn-box">
-                        <a href="" className="btn1">
-                          Shop Now
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>

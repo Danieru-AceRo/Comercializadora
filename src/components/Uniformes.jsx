@@ -36,12 +36,12 @@ const products = [
 const Uniformes = () => {
   return (
     <div>
-      <section class="inner_page_head">
-        <div class="container_fuild">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="full">
-                <h3>Señalamientos</h3>
+      <section className="inner_page_head" id="product_title">
+        <div className="container_fuild">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="full">
+                <h3>Uniformes</h3>
               </div>
             </div>
           </div>

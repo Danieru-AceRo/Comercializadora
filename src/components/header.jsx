@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-    return(
-      <header className="header_section">
+  return (
+    <header className="header_section">
       <div className="container">
         <nav className="navbar navbar-expand-lg custom_nav-container ">
           <Link className="navbar-brand" to="/">
@@ -42,27 +42,29 @@ const Header = () => {
                   </span>
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/arneses">Arnes</Link>
-                  </li>
-                  <li>
-                    <Link to="/audicion">Audición</Link>
-                  </li>
-                  <li>
-                    <Link to="/calzado">Calzado</Link>
-                  </li>
-                  <li>
-                    <Link to ="/">Guantes</Link>
-                  </li>
-                  <li>
-                    <Link to="/senalamientos">Señalaminetos</Link>
-                  </li>
-                  <li>
-                    <Link to="/uniformes">Uniformes</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Visual y cabeza</Link>
-                  </li>
+                  <Link to="/arneses#product_title">
+                    <li>Arnes</li>
+                  </Link>
+
+                  <Link to="/audicion#product_title">
+                    <li>Audición</li>
+                  </Link>
+                  <Link to="/calzado#product_title">
+                    <li>Calzado</li>
+                  </Link>
+                  <Link to="/">
+                    <li>Guantes</li>
+                  </Link>
+
+                  <Link to="/senalamientos">
+                    <li>Señalaminetos</li>
+                  </Link>
+                  <Link to="/uniformes">
+                    <li>Uniformes</li>
+                  </Link>
+                  <Link to="/">
+                    <li>Visual y cabeza</li>
+                  </Link>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -92,8 +94,13 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/nosotros">
+                  Nosotros
+                </Link>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#footer">
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>
@@ -101,7 +108,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
-    );
-}
+  );
+};
 
 export default Header;

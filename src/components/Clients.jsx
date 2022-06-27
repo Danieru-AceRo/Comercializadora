@@ -4,10 +4,10 @@ const clientImage = require('../images/client.jpg')
 export class Clients extends Component {
   render() {
     return (
-        <section className="client_section layout_padding">
+        <section className="client_section layout_padding mb-4">
         <div className="container">
           <div className="heading_container heading_center">
-            <h2>Customer's Testimonial</h2>
+            <h2>Clientes</h2>
           </div>
           <div
             id="carouselExample3Controls"
@@ -20,19 +20,12 @@ export class Clients extends Component {
                   <div className="img_container">
                     <div className="img-box">
                       <div className="img_box-inner">
-                        <img src={clientImage} alt="" />
+                        <img src="images/customers/sabritas.jpg" alt="" />
                       </div>
                     </div>
                   </div>
                   <div className="detail-box">
-                    <h5>Anna Trevor</h5>
-                    <h6>Customer</h6>
-                    <p>
-                      Dignissimos reprehenderit repellendus nobis error quibusdam?
-                      Atque animi sint unde quis reprehenderit, et, perspiciatis,
-                      debitis totam est deserunt eius officiis ipsum ducimus ad labore
-                      modi voluptatibus accusantium sapiente nam! Quaerat.
-                    </p>
+                    <h5>Sabritas</h5>
                   </div>
                 </div>
               </div>
@@ -41,19 +34,12 @@ export class Clients extends Component {
                   <div className="img_container">
                     <div className="img-box">
                       <div className="img_box-inner">
-                        <img src="images/client.jpg" alt="" />
+                        <img src="images/customers/pepsico.jpg" alt="" />
                       </div>
                     </div>
                   </div>
                   <div className="detail-box">
-                    <h5>Anna Trevor</h5>
-                    <h6>Customer</h6>
-                    <p>
-                      Dignissimos reprehenderit repellendus nobis error quibusdam?
-                      Atque animi sint unde quis reprehenderit, et, perspiciatis,
-                      debitis totam est deserunt eius officiis ipsum ducimus ad labore
-                      modi voluptatibus accusantium sapiente nam! Quaerat.
-                    </p>
+                    <h5>PepsiCo</h5>
                   </div>
                 </div>
               </div>
@@ -62,19 +48,40 @@ export class Clients extends Component {
                   <div className="img_container">
                     <div className="img-box">
                       <div className="img_box-inner">
-                        <img src="images/client.jpg" alt="" />
+                        <img src="images/customers/gamesa.png" alt="" />
                       </div>
                     </div>
                   </div>
                   <div className="detail-box">
-                    <h5>Anna Trevor</h5>
-                    <h6>Customer</h6>
-                    <p>
-                      Dignissimos reprehenderit repellendus nobis error quibusdam?
-                      Atque animi sint unde quis reprehenderit, et, perspiciatis,
-                      debitis totam est deserunt eius officiis ipsum ducimus ad labore
-                      modi voluptatibus accusantium sapiente nam! Quaerat.
-                    </p>
+                    <h5>Gamesa</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="box col-lg-10 mx-auto">
+                  <div className="img_container">
+                    <div className="img-box">
+                      <div className="img_box-inner">
+                        <img src="images/customers/bienestar.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="detail-box">
+                    <h5>Banco Bienestar</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="box col-lg-10 mx-auto">
+                  <div className="img_container">
+                    <div className="img-box">
+                      <div className="img_box-inner">
+                        <img src="images/customers/ibero.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="detail-box">
+                    <h5>Universidad Iberoamericana</h5>
                   </div>
                 </div>
               </div>
