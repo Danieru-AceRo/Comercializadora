@@ -51,7 +51,7 @@ const Senalamientos = () => {
         <div className="container">
           <div className="row">
             {products.map((product) => (
-              <ProductCart product={product} key={product.id} />
+              <ProductCart product={product} key={product.id} model={"señalamientos "}/>
             ))}
           </div>
         </div>

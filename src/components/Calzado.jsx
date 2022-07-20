@@ -338,6 +338,351 @@ const vanvien = [
   
 ];
 
+const crucero = [
+  {
+    id: 1,
+    title: " CRUCERO modelo 14A",
+    tallas: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 2,
+    title: "CRUCERO modelo 14B",
+    talla: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 3,
+    title: "CRUCERO modelo 14D",
+    talla: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 4,
+    title: "CRUCERO modelo 16A",
+    talla: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 5,
+    title: "CRUCERO modelo 16B",
+    talla: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 6,
+    title: "CRUCERO modelo 15A",
+    talla: "22,23,24,25,26,27,28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 7,
+    title: " CRUCERO modelo 15B",
+    talla: "22,23,24,25,26,27,28,19,30,31,",
+    image: "",
+  },
+  {
+    id: 8,
+    title: "CRUCERO modelo Trail",
+    talla: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 9,
+    title: "CRUCERO modelo PLO-42-A002",
+    talla: "24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 10,
+    title: "CRUCERO modelo PLO-01-A003",
+    talla: "24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 11,
+    title: "CRUCERO modelo PLO-19-A001 ",
+    talla: "24,25,26,27,28,39,30,31,",
+    image: "",
+  },
+  {
+    id: 12,
+    title: "CRUCERO modelo PLO-54-A005 ",
+    talla: "24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 13,
+    title: "CRUCERO modelo PLO-25-A004",
+    talla: "24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 14,
+    title: "CRUCERO modelo PLO-23-A007",
+    talla: "24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 15,
+    title: "CRUCERO modelo PLO-42-A006 ",
+    talla: "22,23,24,25,26,27,28,29,30,31,",
+    image: "",
+  },
+  {
+    id: 16,
+    title: "CRUCERO modelo SRW",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 17,
+    title: "CRUCERO modelo SRW MET",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 18,
+    title: "CRUCERO modelo DUCK",
+    talla: "22,23,24,25,26,27,28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 19,
+    title: "CRUCERO modelo BC4+",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 20,
+    title: "CRUCERO modelo 502",
+    talla: "22,23,24,25,26,27,28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 21,
+    title: "CRUCERO modelo CFE",
+    talla: "23,24,25,26,27,28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 22,
+    title: "CRUCERO modelo 238 ",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 23,
+    title: "CRUCERO modelo 238",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 24,
+    title: "CRUCERO modelo HELIOS",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 25,
+    title: "CRUCERO modelo NAVY",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 26,
+    title: "CRUCERO modelo AURA",
+    talla: "22,23,24,25,26,27,28,29,30,",
+    image: "",
+  },
+  {
+    id: 27,
+    title: "CRUCERO modelo FIRE",
+    talla: "22,23,24,25,26,27,28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 28,
+    title: "CRUCERO modelo MONSTER",
+    talla: "22,23,24,25,26,27,28,29,30,31,32",
+    image: "",
+  },
+  {
+    id: 29,
+    title: "CRUCERO modelo NR1 LADY",
+    talla: "22,23,24,25,26,27,",
+    image: "",
+  },
+  {
+    id: 30,
+    title: "CRUCERO modelo NR1 ",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 31,
+    title: "CRUCERO modelo NR1 MET ",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 32,
+    title: "CRUCERO modelo NR1 PU ",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 33,
+    title: "CRUCERO modelo NR1 DIABÉTICO ",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 34,
+    title: "CRUCERO modelo NR2",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 35,
+    title: "CRUCERO modelo NR2 PU",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 36,
+    title: "CRUCERO modelo NR3",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 37,
+    title: "CRUCERO modelo EVEREST",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 38,
+    title: "CRUCERO modelo ZIRCON",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 39,
+    title: "CRUCERO modelo GAMMA",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 40,
+    title: "CRUCERO modelo LITE 1",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 41,
+    title: "CRUCERO modelo LITE 2",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 42,
+    title: "CRUCERO modelo 930",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 43,
+    title: "CRUCERO modelo SIGMA",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 44,
+    title: "CRUCERO modelo SRW CONDUCTIVO",
+    talla: "24,25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 45,
+    title: "CRUCERO modelo VOLT 1",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 46,
+    title: "CRUCERO modelo VOLT 4",
+    talla: "24,25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 47,
+    title: "CRUCERO modelo 800",
+    talla: "22,23,24,25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 48,
+    title: "CRUCERO modelo 801",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 49,
+    title: "CRUCERO modelo 802",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 50,
+    title: "CRUCERO modelo BC4",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 51,
+    title: "CRUCERO modelo 927",
+    talla: "23,24,25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 52,
+    title: "CRUCERO modelo 435",
+    talla: "22,23,24,25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 53,
+    title: "CRUCERO modelo 435+",
+    talla: "22,23,24,25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 54,
+    title: "CRUCERO modelo BLUCHER",
+    talla: "25,26,27, 28,29,30,",
+    image: "",
+  },
+  {
+    id: 55,
+    title: "CRUCERO modelo BETA",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 56,
+    title: "CRUCERO modelo GAMA TÁCTICO",
+    talla: "22,23,24,25,26,27, 28,29,30,31,32,",
+    image: "",
+  },
+  {
+    id: 57,
+    title: "CRUCERO modelo FPF",
+    talla: "25,26,27, 28,29,30,",
+    image: "",
+  },
+];
+
 const Calzado = () => {
   return (
     <div>
@@ -357,7 +702,7 @@ const Calzado = () => {
         <div className="container">
           <div className="row">
             {products.map((product) => (
-              <ProductCart product={product} key={product.id} model={"A"} />
+              <ProductCart product={product} key={product.id} model={"A"} talla={product.talla}/>
             ))}
           </div>
         </div>
@@ -367,7 +712,17 @@ const Calzado = () => {
         <div className="container">
           <div className="row">
             {vanvien.map((x) => (
-              <ProductCart product={x} key={x.id} model={"V"} />
+              <ProductCart product={x} key={x.id} model={"V"} talla={x.talla}/>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="product_section layout_padding mt-4">
+        <h4 className="subproduct text-center mt-4">Crucero</h4>
+        <div className="container">
+          <div className="row">
+            {crucero.map((y) => (
+              <ProductCart product={y} key={y.id} model={"C"} talla={y.talla} />
             ))}
           </div>
         </div>

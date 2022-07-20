@@ -1,12 +1,18 @@
 import React from 'react'
 
-const ProductCart = ({ product, model }) => {
+const ProductCart = ({ product, model, talla }) => {
+  let size
+  if (talla) {
+    size = <h6><strong>Talla: </strong> {product.talla}</h6>;
+  }else{
+    size = "";
+  }
   return (
     <div className="col-sm-6 col-md-4 col-lg-3">
     <div className="box">
       <div className="option_container">
         <div className="options">
-          <a href={"https://wa.me/527225686958?text=Me%20interesa%20el%20modelo%20" + product.title} className="option2" target="_blank" rel="noopener noreferrer" >
+          <a href={"https://wa.me/525537537557?text=Me%20interesa%20el%20modelo%20" + product.title} className="option2" target="_blank" rel="noopener noreferrer" >
             Comprar
           </a>
         </div>
@@ -16,7 +22,7 @@ const ProductCart = ({ product, model }) => {
       </div>
       <div className="detail-box">
         <h5>{product.title}</h5>
-        <h6><strong>Talla: </strong> {product.talla}</h6>
+        <h6>{size}</h6>
       </div>
     </div>
   </div>

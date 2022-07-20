@@ -6,10 +6,6 @@ const Us = () => {
       <div className="container">
         <div className="row">
           <div className=" col-12 my-2">
-            <h3></h3>
-            <p></p>
-          </div>
-          <div className=" col-12 my-2">
             <h3>Historia: </h3>
             <p>
               Empresa inovadora fundada en 2016 enfocada a la comercialización
@@ -23,11 +19,19 @@ const Us = () => {
             <p>
               Satisfacer todas las necesidades de abastecimiento industrial de
               manera inmediata, contribuyendo al desarrollo y crecimiento de
-              nuestros clientes Visión: Empresa eficaz reconocida dentro del
-              sector industrial por costos, calidad y servicios con prescencia
-              en toda la Republica Mexicana Valores: Servicio, Calidad y Precio
-              Nuestros
+              nuestros clientes.
             </p>
+          </div>
+          <div className=" col-12 my-2">
+            <h3>Visión</h3>
+            <p>
+              Empresa eficaz reconocida dentro del sector industrial por costos,
+              calidad y servicios con prescencia en toda la Republica Mexicana.
+            </p>
+          </div>
+          <div className=" col-12 my-2">
+            <h3>Valores</h3>
+            <p>Servicio, Calidad y Precio</p>
           </div>
           <div className=" col-12 my-2">
             <h3>Licitaciones</h3>

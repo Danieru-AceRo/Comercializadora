@@ -46,7 +46,7 @@ const Audicion = () => {
       <div className="container">
         <div className="row">
           {products.map((product) => (
-            <ProductCart product={product} key={product.id} />
+            <ProductCart product={product} key={product.id} model={"audicion "}/>
           ))}
         </div>
       </div>

@@ -42,17 +42,17 @@ const Header = () => {
                   </span>
                 </a>
                 <ul className="dropdown-menu">
-                  <Link to="/arneses#product_title">
+                  <Link to="/arneses">
                     <li>Arnes</li>
                   </Link>
 
-                  <Link to="/audicion#product_title">
+                  <Link to="/audicion">
                     <li>Audición</li>
                   </Link>
-                  <Link to="/calzado#product_title">
+                  <Link to="/calzado">
                     <li>Calzado</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/guantes">
                     <li>Guantes</li>
                   </Link>
 
@@ -82,20 +82,20 @@ const Header = () => {
                   </span>
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/">Bomberos</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Extintores</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Herrajes</Link>
-                  </li>
+                  <Link to="/bomberos">
+                    <li>Bomberos</li>
+                  </Link>
+                  <Link to="/extintores">
+                    <li>Extintores</li>
+                  </Link>
+                  <Link to="/herrajes">
+                    <li>Herrajes</li>
+                  </Link>
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/nosotros">
-                  Nosotros
+                <Link className="nav-link" to="/Materiales">
+                  Materiales
                 </Link>
               </li>
               <li className="nav-item">

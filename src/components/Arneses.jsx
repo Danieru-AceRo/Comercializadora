@@ -3,6 +3,12 @@ import ProductCart from "./ProductCart";
 
 const products = [
   {
+    id: 1,
+    title: "Arnés de sujeción",
+    price: 50,
+    image: "",
+  },
+  {
     id: 2,
     title: "Arnés Weld Tek",
     price: 50,
@@ -16,7 +22,7 @@ const products = [
   },
   {
     id: 4,
-    title: "Arnés Future",
+    title: "Arnés Anti-caídas",
     price: 50,
     image: "",
   },
@@ -59,7 +65,7 @@ const Arneses = () => {
         <div className="container">
           <div className="row">
             {products.map((product) => (
-              <ProductCart product={product} key={product.id} />
+              <ProductCart product={product} key={product.id} model={"ARNES"} size={product.talla}/>
             ))}
           </div>
         </div>
