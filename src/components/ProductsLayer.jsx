@@ -367,6 +367,12 @@ const ProductsLayer = () => {
             ))
         }
       </div>
+      <div className="row">
+        <div className="text-center">
+          <p>¿No encontraste lo que buscabas?</p>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><h5>Contáctanos, te aseguro que lo tenemos</h5></a>
+        </div>
+      </div>
     </div>
   </section>
     </div>
