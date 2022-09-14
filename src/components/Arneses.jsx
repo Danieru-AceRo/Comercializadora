@@ -68,10 +68,10 @@ const Arneses = () => {
               <ProductCart product={product} key={product.id} model={"ARNES"} size={product.talla}/>
             ))}
           </div>
-          <div className="text-center">
+          {/* <div className="text-center">
           <p>¿No encontraste lo que buscabas?</p>
           <a href="https://wa.me/525537537557" target="_blank" rel="noopener noreferrer"><h5>Contáctanos, te aseguro que lo tenemos</h5></a>
-        </div>
+        </div> */}
         </div>
       </section>
     </div>

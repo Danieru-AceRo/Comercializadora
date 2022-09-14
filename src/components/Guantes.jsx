@@ -1,4 +1,5 @@
 import React from 'react'
+import ButtonPrimary from './ButtonPrimary';
 import ProductCart from './ProductCart';
 
 const products = [
@@ -85,6 +86,12 @@ const Guantes = () => {
               </div>
             </div>
           </section>
+          <section className='my-4'>
+          <div className="container text-center">
+          <h2>¿No encuentras lo que buscabas? <br /> ¡Descarga nuestro catalogo! Seguro que lo encuentras</h2>
+          <ButtonPrimary url="Catalogo guantes leunam BETA .pdf" />
+          </div>
+        </section>
         </div>
       );
 }

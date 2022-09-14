@@ -17,6 +17,7 @@ import Guantes from './components/Guantes';
 import Bombero from './components/Bombero';
 import Extinrores from './components/Extinrores';
 import Herrajes from './components/Herrajes';
+import Visual from './components/Visual';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/bomberos" element={ <Bombero />} />
           <Route exact path="/extintores" element={ <Extinrores />} />
           <Route exact path="/herrajes" element={ <Herrajes />} />
+          <Route exact path="/visual" element={ <Visual />} />
         </Routes>
       </Layout>
     </BrowserRouter>

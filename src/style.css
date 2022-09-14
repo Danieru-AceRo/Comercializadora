@@ -1129,3 +1129,14 @@ form input[type="submit"]:focus {
   background-color:var(--secundary);
   padding: 1.5rem 0;
 }
+
+
+.btn-primary{
+  background-color: var(--secundary);
+  border-radius: 30px;
+}
+/* 
+.home-button{
+  border:1px solid var(--main);
+  margin: 0 1rem;
+} */

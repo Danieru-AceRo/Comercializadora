@@ -62,7 +62,7 @@ const Header = () => {
                   <Link to="/uniformes">
                     <li>Uniformes</li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/visual">
                     <li>Visual y cabeza</li>
                   </Link>
                 </ul>
@@ -82,11 +82,11 @@ const Header = () => {
                   </span>
                 </a>
                 <ul className="dropdown-menu">
-                  <Link to="/bomberos">
+                  {/* <Link to="/bomberos">
                     <li>Bomberos</li>
-                  </Link>
+                  </Link> */}
                   <Link to="/extintores">
-                    <li>Extintores</li>
+                    <li>Extintores y Bomberos</li>
                   </Link>
                   <Link to="/herrajes">
                     <li>Herrajes</li>
@@ -102,6 +102,9 @@ const Header = () => {
                 <a className="nav-link" href="#footer">
                   Contacto
                 </a>
+              </li>
+              <li>
+                <a href="https://wa.me/525537537557" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-success">WhatsApp</button></a>
               </li>
             </ul>
           </div>

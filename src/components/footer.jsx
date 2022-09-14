@@ -9,10 +9,6 @@ const Footer = () => {
             <div class="footer_contact">
               <h4>Contáctanos en:</h4>
               <div class="contact_link_box">
-                <a href="">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span>Ubicación</span>
-                </a>
                 <a href="tel:5588709749">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>55-88-70-97-49</span>
@@ -43,9 +39,9 @@ const Footer = () => {
                 <a href="">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
-                <a href="">
+                {/* <a href="">
                   <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

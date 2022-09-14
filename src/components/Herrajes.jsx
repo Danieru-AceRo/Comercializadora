@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductCart from './ProductCart';
+import ButtonPrimary from './ButtonPrimary';
 
 const products = [
     {
@@ -68,6 +69,12 @@ const Herrajes = () => {
                 <ProductCart product={product} key={product.id} model={"herraje"} />
               ))}
             </div>
+          </div>
+        </section>
+        <section className='my-4'>
+          <div className="container text-center">
+          <h2>¿No encuentras lo que buscabas? <br /> ¡Descarga nuestro catalogo! Seguro que lo encuentras</h2>
+          <ButtonPrimary url="Herrajes  leunam beta .pdf" />
           </div>
         </section>
       </div>

@@ -3,7 +3,7 @@ import ProductCart from './ProductCart'
 
 const products = [
     {
-        "id": 1,
+        "id": 18,
         "title": "Traje de bombero",
       },
 ]
